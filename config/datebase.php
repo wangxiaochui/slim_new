@@ -7,7 +7,7 @@ return [
         'displayErrorDetails' => true,
         'db' => [
             'driver' => 'mysql',
-            'host' => 'localhost',
+            'host' => '127.0.0.1',
             'database' => 'tcm',
             'username' => 'root',
             'password' => 'root',

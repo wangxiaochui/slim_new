@@ -11,7 +11,7 @@ $autoload ->register();
 $autoload ->addNamespace('App\Controller', APP_PATH.'/controller');
 $autoload ->addNamespace('App\Model', APP_PATH.'/model');
 */
-$container = new \Slim\Container();
+//$container = new \Slim\Container();
 //var_dump($container['settings']);exit;
 $config = require_once '../config/datebase.php';
 $container['settings']['db'] = $config['settings']['db'];
